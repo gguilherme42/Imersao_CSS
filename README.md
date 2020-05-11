@@ -7,3 +7,8 @@
  Tendo por objetivo, criar um site de portifólio pessoal usando HTML5 e CSS3.
  - ![Meu site pessoal](https://gguilherme42.github.io/Imersao_CSS/)
  
+ <hr>
+ 
+ # Desafios
+
+- ![Jogo para entender melhor as CSS](https://flukeout.github.io/)
