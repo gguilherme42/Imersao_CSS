@@ -6,7 +6,8 @@
 }
 
 body {
-    background-image: url('http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg');
+    background-image: url("imagens/fundojpg");
+    background-repeat: no-repeat;
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
@@ -101,7 +102,7 @@ a:hover {
 
 @media (min-width: 760px) {
     .Portifolio .grid {
-        grid-template-columns: 240px 240px;
+        grid-template-columns: repeat(2, 240px);
     }
 }
 
@@ -111,13 +112,13 @@ a:hover {
 
 @media (min-width: 990px) {
     .Portifolio .grid {
-        grid-template-columns: 240px 240px 240px;
+        grid-template-columns: repeat(3, 240px);
     }
 }
 
 @media (min-width: 1200px) {
     .Portifolio .grid {
-        grid-template-columns: 240px 240px 240px 240px;
+        grid-template-columns: repeat(4, 240px);
     }
 }
 
