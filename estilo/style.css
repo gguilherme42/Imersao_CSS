@@ -69,6 +69,13 @@ header {
     padding: 10px 20px;
 }
 
+.menu a:hover {
+    background-color: teal;
+    color: white;
+    transition: background-color 0.7s, color 0.5s;
+
+}
+
 a {
     text-decoration: none;
 }
@@ -125,4 +132,11 @@ a:hover {
 .img-portifolio {
     height: 180px;
     width: 180PX;
+    object-fit: cover;
+    object-position: left bottom;
+    transition: transform 1s;
+}
+
+.img-portifolio:hover {
+    transform: scale(2);
 }
