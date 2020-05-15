@@ -85,3 +85,43 @@ a:hover {
 .site-subtitle {
     font-style: italic;
 }
+
+.Portifolio h2 {
+    color: whitesmoke;
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.Portifolio .grid {
+    display: grid;
+    gap: 2em;
+    justify-content: center;
+}
+
+@media (min-width: 760px) {
+    .Portifolio .grid {
+        grid-template-columns: 240px 240px;
+    }
+}
+
+.Portifolio figure{
+    text-align: center;
+}
+
+@media (min-width: 990px) {
+    .Portifolio .grid {
+        grid-template-columns: 240px 240px 240px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Portifolio .grid {
+        grid-template-columns: 240px 240px 240px 240px;
+    }
+}
+
+.img-portifolio {
+    height: 180px;
+    width: 180PX;
+}
