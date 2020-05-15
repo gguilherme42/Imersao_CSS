@@ -134,9 +134,10 @@ a:hover {
     width: 180PX;
     object-fit: cover;
     object-position: left bottom;
-    transition: transform 1s;
+    
 }
 
 .img-portifolio:hover {
     transform: scale(2);
+    transition: transform 1s;
 }
