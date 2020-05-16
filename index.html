@@ -5,43 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guilherme Rosa</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <a href="">Sobre</a>
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
                 <a href="#portifolio">Portifólio</a>
-                <a href="Contato/contato.html">Contato</a>
+                <a href="#contato">Contato</a>
             </ul>
         </nav>
         <div>
             <h1 class="site-title">Guilherme Rosa</h1>
             <h2 class="site-subtitle">Jr. frontend developer</h2>
         </div>
-    </header>
-    <section class="Portifolio">
-        <h2 id="portifolio">Portfólio</h2>
-        
+      </header>
+      <section id="sobre" class="Sobre Container">
+        <hr>
+        <h2>Sobre</h2>
+        <figure><img src="imagens/pfphoto.png" alt="Guilherme Rosa">
+        </figure>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum atque. Soluta voluptatibus dolores ipsam. Eligendi consequatur vel quod magnam est at mollitia fugiat nulla ab, aspernatur, molestias nesciunt doloremque.</p>
+        <p>Ullam officia, atque doloribus voluptatum quasi, aperiam obcaecati unde iste, exercitationem veniam facilis nihil. Fugit laudantium nisi quasi dolore vero. Dolorum sint nisi fuga facilis libero! Sed repudiandae delectus quibusdam!</p>
+        <p>At id expedita beatae voluptatem nobis eligendi neque incidunt. Delectus est, consequuntur dolore aut ad mollitia suscipit necessitatibus, vero rem libero possimus animi, nesciunt recusandae doloremque qui. Asperiores, quo totam?</p>
+        <p>Nesciunt qui ducimus reiciendis blanditiis tempora quia doloremque dicta consectetur. Odio cupiditate laboriosam ipsa explicabo sit qui earum modi illo veritatis, ex ad voluptate, est aliquam dolores. Esse, maiores nisi.</p>
+      </section>
+
+      
+      <section id="portifolio" class="Portifolio Container">
+        <hr>
+        <h2>Portifólio</h2>
         <div class="grid">
+          <div class="Back_card1">
+            <figure>
+                <img src="imagens/back_card.png" alt="back_card1">
+            <caption>
+                <p>Projeto 1</p>
+              </caption>
+            </figure>
+          </div>
+          <div class="Back_card2">
+              <figure>
+                  <img src="imagens/back_card.png"  alt="back_card2">
+                <caption>
+                  <p>Projeto 2</p>
+                </caption>
+              </figure>
+          </div>
+        <div>
           <figure>
-            <img class="img-portfilio" src="imagens/alura_img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-            <figcaption>eCommerce</figcaption>
-          </figure>
-          <figure>
-            <img class="img-portfilio" src="imagens/alura_img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-            <figcaption>Mobile</figcaption>
-          </figure>
-          <figure>
-            <img class="img-portfilio" src="imagens/alura_img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-            <figcaption>Web design</figcaption>
-          </figure>
-          <figure>
-            <img class="img-portfilio" src="imagens/alura_img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
-            <figcaption>Projetos pessoais</figcaption>
+            <img src="imagens/back_card.png" alt="back_card3">
+          <caption>
+            <p>Projeto 3</p>
+          </caption>
           </figure>
         </div>
+      </div>
       </section>
-    
+
+
+      <section id="contato" class="Contato Container">
+        <hr>
+        <h2>Contato</h2>
+        <a href="https://www.github.com/gguilherme42" target="_blank"><img src="imagens/github.png" alt="icone-github" class="GitH"></a>
+        <a href="" target="_blank"><img src="imagens/linkedin.png" alt="icone-linkedin" class="Lin"></a>
+        <a href="" target="_blank"><img src="imagens/instagram.png" alt="icone-instagram"></a>
+        
+      </section>
 </body>
 </html>
