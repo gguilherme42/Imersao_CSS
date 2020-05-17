@@ -9,8 +9,7 @@
  
  <hr>
  
- # Desafios
-Jogos de CSS:
+# Jogos de CSS
 - [CSS Diner](https://flukeout.github.io/)
 - [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
 - [Grid Garden](https://cssgridgarden.com/)
