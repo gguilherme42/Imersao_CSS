@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guilherme Rosa</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/gallery/galler.theme..css">
+    <link rel="stylesheet" href="estilo/gallery/gallery.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+    <title>Guilherme Rosa</title>
+
 </head>
 <body>
-    <header>
+
+    <header id='home'>
   <!-- Menu -->
         <nav class="menu">
             <ul>
-                <a href="#home">Home</a>
+                <a href="#home">🌑</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#portifolio">Portifólio</a>
                 <a href="#contato">Contato</a>
             </ul>
         </nav>
 <!-- Nome e título pessoal -->
-        <div id='home'>
+        <div >
             <h1 class="site-title">Guilherme Rosa</h1>
-            <h2 class="site-subtitle">Jr.front developer</h2>
+            <h2 class="site-subtitle">Técnico em Eletromecânica</h2>
         </div>
       </header>
 
@@ -29,33 +33,45 @@
       <section id="sobre" class="Sobre Container">
         <hr>
         <h2>Sobre</h2>
-        <figure><img src="imagens/pfphoto.png" alt="Guilherme Rosa">
-        </figure>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum atque. Soluta voluptatibus dolores ipsam. Eligendi consequatur vel quod magnam est at mollitia fugiat nulla ab, aspernatur, molestias nesciunt doloremque.</p>
-        <p>Ullam officia, atque doloribus voluptatum quasi, aperiam obcaecati unde iste, exercitationem veniam facilis nihil. Fugit laudantium nisi quasi dolore vero. Dolorum sint nisi fuga facilis libero! Sed repudiandae delectus quibusdam!</p>
-        <p>At id expedita beatae voluptatem nobis eligendi neque incidunt. Delectus est, consequuntur dolore aut ad mollitia suscipit necessitatibus, vero rem libero possimus animi, nesciunt recusandae doloremque qui. Asperiores, quo totam?</p>
-        <p>Nesciunt qui ducimus reiciendis blanditiis tempora quia doloremque dicta consectetur. Odio cupiditate laboriosam ipsa explicabo sit qui earum modi illo veritatis, ex ad voluptate, est aliquam dolores. Esse, maiores nisi.</p>
+        <div>
+          <figure><img src="imagens/pfphoto.png" alt="Guilherme Rosa">
+          </figure>
+          <p>Brasileiro do RS, nascido em 1999.     Técnico em eletromecânica, assistente administrativo, estudande de T.I, filosofia e inglês.</p>
+          <p></p>
+          <p>Esse site foi construído durante a <a href="https://www.alura.com.br/">Imersão CSS da Alura Cursos Online.</a></p>
+        </div>
       </section>
 
 <!-- Projetos -->
       <section id="portifolio" class="Portifolio Container">
         <hr>
         <h2>Projetos</h2>
-        <!-- TCC CARD -->
-        <div class="tcc_Card">
-          <div class="topCard">
-            <h3 class="tittle"><abbr title="Sistemas de Climatização de Ambientes por Energia Geotérmica">S . C . A . E . G</abbr></h2>
-            <span class="secondText">Trabalho de Conclusão  do curso técnico em eletromecânica.</span>
-          </div>
-          <div class="mediaCard">
-          </div>
-          <div class="bottomCard">
-            <p>O projeto é um forma alternativa de climatizar um ambiente, usando energia geotérmica.</p>
+       <div class="gallery autoplay items-3">
+         
+        <div id="item-1" class="control-operator"></div>
+         <div id="item-2" class="control-operator"></div>
+         <div id="item-3" class="control-operator"></div>
+          
+         <figure class="item">
+          <h1><img src="https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/tcc_card.jpg" alt=""></h1>
+          </figure>
+         
+          <figure class="item">
+            <h1><img src="imagens/instagram.png" alt=""></h1>
+          </figure>
+         
+          <figure class="item">
+            <h1><img src="imagens/pfphoto.png" alt=""></h1>
+          </figure>
+       
+          <div class="controls">
+            <a href="#item-1" class="control-buttom">.</a>
+            <a href="#item-2 class="control-buttom">.</a>
+            <a href="#item-3" class="control-buttom">.</a>
+    
           </div>
         </div>
-        <!-- Wikipedia Card -->
-
-
+      
       </section>
 
 <!-- CONTATO -->
