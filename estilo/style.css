@@ -19,6 +19,7 @@
     body {
       font-size: 14px;
     }
+    
   }
   
   /* breakpoint */
@@ -27,6 +28,7 @@
       background-attachment: fixed;
       background-size: cover;
       font-size: 18px;
+
     }
   }
   
@@ -91,6 +93,7 @@
   
   .site-subtitle, 
   .site-title {
+    margin-top: 1em;
     color: whitesmoke;
     text-align: center;
   }
@@ -110,7 +113,7 @@
   
 
 .Container {
-
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
@@ -120,14 +123,11 @@
   .Portifolio h2,
   .Contato h2 {
       color: whitesmoke;
+      margin-top: 1em;
       font-size: 2em;
   }
   
-  .Sobre {
-      padding: 10px;
-      margin-left: auto;
-      margin-right: auto;
-  }
+ 
 .Sobre figure {
     float: left;
     margin-right: 2.3em;
@@ -140,26 +140,54 @@
   }
   
  
+/* Cards dentro de Projetos */
+/* TCC card */
+.tcc_Card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: thistle;
+  border-radius: 20px;
+  /* box-shadow: 0px 2px 18px #000000; */
+  width: 240px;
+  height: 100vh;
+}
 
-.Portifolio grid {
+.tcc_Card .topCard {
+  padding: 20px;
+  padding-top: 0px;
+}
+.tcc_Card .mediaCard{
+  background: url('') center/cover;
+  height: 150px;
+  width: 100%;
+}
+
+
+  .Contato div {
     display: flex;
-    position: ;
-}
-
-.Contato {
-    display: block;
-    justify-content: space-around;
-}
-
-  .Contato a img {
-    margin-right: 2em;
-    width: 100px;
-    height: 100px;
-    opacity: 0.5;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
 
   }
 
-.Contato a img:hover {
+  .Contato div a img {
+    width: 100px;
+    height: 100px; 
+
+  }
+
+.Contato div a img:hover {
     background-color: skyblue;
-    border-radius: 50%;
+    border-radius: 100%;
+}
+
+@media (min-width: 360px) {
+  .Contato div a img {
+    width: 35px;
+    height: 35px; 
+
+  }
 }
