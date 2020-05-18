@@ -182,7 +182,7 @@
   .Contato h2 {
       color: whitesmoke;
       margin-top: 1em;
-      margin-bottom: 1em;
+      margin-bottom: 0.5em;
       font-size: 2em;
   }
   
@@ -222,13 +222,15 @@
 #slider input[type=radio] {
   display: none;
 }
+
 #slider label {
   cursor:pointer;
   text-decoration: none;
 }
+
 #slides {
   border-radius: 10px;
-  height: 50%;
+  height: 100%;
   padding: 10px;
   border: 3px solid #ccc;
   background: #fff;
@@ -263,12 +265,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 165%;
   color: #fff;
 }
 #slides .slide_1 {
   background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/tcc_card.jpg') center/cover;
+  background-color: rgba(red, green, blue, 0.4);
 }
+
+.slide_1 .slide-content h2, p{
+  color: whitesmoke;
+  
+}
+
 #slides .slide_2 {
   background: #003459;
 }
