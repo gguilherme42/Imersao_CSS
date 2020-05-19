@@ -269,17 +269,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 130%;
+  height: 100%;
   color: #fff;
 }
 #slides .slide_1 {
   background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/tcc_card.jpg') center/cover;
-  
 }
 
 .slide_1 .slide-content h2, p{
   opacity: 1;
-  color: whitesmoke;
+  color: black;
   
 }
 
@@ -287,7 +286,7 @@
   background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/solda.jpg') center/cover;
 }
 #slides .slide_3 {
-  background: #007EA7;
+  background: url('');
 }
 #slides .slide_4 {
   background: #00A8E8;
