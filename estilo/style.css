@@ -216,7 +216,7 @@
 
 #slider {
   margin: 0 auto;
-  width: 800px;
+  width: 500px;
   max-width: 100%;
   text-align: center;
 }
@@ -234,10 +234,10 @@
 
 #slides {
   border-radius: 10px;
-  height: 90%;
+  height: 100%;
   padding: 10px;
   border: 3px solid #ccc;
-  background: #fff;
+  background: black;
   position: relative;
   /* z-index: 1; */
 }
@@ -270,10 +270,10 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: #fff;
+  color: white);
 }
 #slides .slide_1 {
-  background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/tcc_card.jpg') center/cover;
+  background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/tcc_M.jpg') center/cover;
 }
 
 
@@ -281,8 +281,6 @@
 .slide_3 .slide-content p,
 .slide_2 .slide-content p,
 .slide_1 .slide-content p{
-  position: relative;
-  /* display: flex; */
   align-items: baseline;
   line-height: 1.5em;
   color: white;
@@ -291,10 +289,10 @@
 }
 
 #slides .slide_2 {
-  background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/solda.jpg') center/cover;
+  background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/solda_M.jpg') center/cover;
 }
 #slides .slide_3 {
-  background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/livros.jpg') center/cover;
+  background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/livros_M.jpg') center/cover;
 }
 #slides .slide_4 {
   background: #00A8E8;
