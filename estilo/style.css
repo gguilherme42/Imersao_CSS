@@ -203,7 +203,11 @@
   text-decoration: underline;
 }
 
-  .Sobre div p {
+.Sobre blockquote {
+  color: white;
+
+
+.Sobre div p {
     position: right;;
     color: white;
     text-indent: 1.5em;
