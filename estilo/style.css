@@ -289,7 +289,7 @@
 }
 
 #slides .slide_2 {
-  background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/solda_M.jpg') center/cover;
+  background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/solda_M.jpg')  no-repeat center/cover;
 }
 #slides .slide_3 {
   background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/livros_M.jpg') center/cover;
