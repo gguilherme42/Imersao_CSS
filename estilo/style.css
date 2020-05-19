@@ -190,7 +190,7 @@
 
 .Sobre div {
   margin-bottom: 1.5em;
-  padding: 10px;
+  padding: 20px;
   height: 100vh;
 }
   .Sobre figure {
@@ -208,9 +208,10 @@
 }
 
 .Sobre div p {
-    position: right;;
+    position: right;
     color: white;
     text-indent: 1.5em;
+    text-align: justify;
     margin-top: 1em;
     
     }
@@ -292,6 +293,8 @@
   
 }
 
+
+
 #slides .slide_2 {
   background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/solda_M.jpg')  center/cover;
 }
@@ -372,6 +375,9 @@
   }
 }
 
+.explicacoes {
+  color: white;
+}
 
 
 
