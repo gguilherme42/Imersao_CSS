@@ -130,7 +130,7 @@
   
   .menu a {
     display: block;
-    width: 150px;
+    width: 100%;
     text-align: center;
     padding: 10px 10px;
     transition: background-color 0.5s, color 0.5s;
@@ -365,6 +365,13 @@
   #slides {
      max-width: calc(100% - 140px);
      margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 450px) {
+  #slides .slide_1 {
+    background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/tcc_M.jpg') center/cover;
   }
 }
 
