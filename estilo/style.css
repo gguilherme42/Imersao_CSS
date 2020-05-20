@@ -71,6 +71,10 @@
   
     }
   }
+
+
+
+  
   
   /* breakpoint */
   @media (min-width: 900px) {
@@ -158,15 +162,47 @@
   
   .site-title {
     font-size: 4em;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Special Elite', sans-serif;
   }
   
   .site-subtitle {
-   font-style: italic;
-   font-family: 'Press Start 2P', cursive;
+    border-right: 2px solid  rgba(255, 255, 255, 0.75);
+   margin: 0px auto;
+   font-family: 'Special Elite', monospace;
    line-height: 1.8em;
+   width: fit-content;
+   white-space: nowrap;
+   overflow: hidden;
+  
   }
 
+  .typing-animation {
+    animation: bCursor 500ms steps(40) infinite normal,
+    typing 1s steps(40) 0.2s normal;
+  } 
+
+
+/* Digitando */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+
+  /* Animação do cursor psicando */
+  @keyframes bCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+    
 
   
 
@@ -244,12 +280,13 @@
   border: 3px solid #ccc;
   background: black;
   position: relative;
-  /* z-index: 1; */
 }
+
 #overflow {
   width: 100%;
   overflow: hidden;
 }
+
 #slide1:checked ~ #slides .inner {
   margin-left: 0;
 }
@@ -275,8 +312,9 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: white);
+  color: white;
 }
+
 #slides .slide_1 {
   background: url('https://raw.githubusercontent.com/gguilherme42/Imersao_CSS/master/imagens/tcc.jpg') center/cover;
 }
@@ -311,39 +349,13 @@
   z-index: 3;
   position: relative;
 }
-#controls label {
-  transition: opacity 0.2s ease-out;
-  display: none;
-  width: 50px;
-  height: 50px;
-  opacity: 1;
- 
-}
-#controls label:hover {
-  opacity: 1;
-}
-#slide1:checked ~ #controls label:nth-child(2),
-#slide2:checked ~ #controls label:nth-child(3),
-#slide3:checked ~ #controls label:nth-child(4),
-#slide4:checked ~ #controls label:nth-child(1) {
-  background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
-  float:right;
-  margin: 0 -50px 0 0;
-  display: block;
-}
-#slide1:checked ~ #controls label:nth-last-child(2),
-#slide2:checked ~ #controls label:nth-last-child(3),
-#slide3:checked ~ #controls label:nth-last-child(4),
-#slide4:checked ~ #controls label:nth-last-child(1) {
-  background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
-  float:left;
-  margin: 0 0 0 -50px;
-  display: block;
-}
+
+
 #bullets {
   margin: 150px 0 0;
   text-align: center;
 }
+
 #bullets label {
   display: inline-block;
   width: 20px;
@@ -359,24 +371,11 @@
   background: #444;
 }
 @media screen and (max-width: 900px) {
-  #slide1:checked ~ #controls label:nth-child(2),
-  #slide2:checked ~ #controls label:nth-child(3),
-  #slide3:checked ~ #controls label:nth-child(4),
-  #slide4:checked ~ #controls label:nth-child(1),
-  #slide1:checked ~ #controls label:nth-last-child(2),
-  #slide2:checked ~ #controls label:nth-last-child(3),
-  #slide3:checked ~ #controls label:nth-last-child(4),
-  #slide4:checked ~ #controls label:nth-last-child(1) {
-     margin: 0;
-  }
+  
   #slides {
-     max-width: calc(100% - 140px);
+     max-width: calc(100% - 30px);
      margin: 0 auto;
   }
-}
-
-.explicacoes {
-  color: white;
 }
 
 
