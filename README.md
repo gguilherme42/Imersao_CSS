@@ -13,3 +13,5 @@
 - [CSS Diner](https://flukeout.github.io/)
 - [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
 - [Grid Garden](https://cssgridgarden.com/)
+<br>
+__Obs:__ Abra o site usando o navegador Google, de preferência.
